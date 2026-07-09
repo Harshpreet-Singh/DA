@@ -1,5 +1,5 @@
 import pandas as pd
-df = pd.read_csv('sas_combine.csv')
+df = pd.read_csv('data/sas_combine.csv')
 
 df.rename(columns={
     "_2Ks63":"price",
