@@ -82,7 +82,11 @@ OLX-Rental-Property-Analysis/
 │   └── sas_nagar.csv
 │
 ├──  data_cleaning.py
-├──  eda_1.csv    etc..
+├──  read_csv_url.py  (how to load csv from url)
+├──  read_csv.py
+├── eda/
+│   ├── eda_1.py
+│   ├── eda_2.py
 │
 ├── README.md
 └── requirements.txt

@@ -62,3 +62,6 @@ dtypes: Int64(4), str(2)
 memory usage: 299.2 KB
 None
 """
+
+
+print(df.describe())
