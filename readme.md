@@ -81,9 +81,8 @@ OLX-Rental-Property-Analysis/
 │   ├── kharar.csv
 │   └── sas_nagar.csv
 │
-├── notebooks/
-│   ├── data_cleaning.ipynb
-│   └── eda.ipynb
+├──  data_cleaning.py
+├──  eda_1.csv    etc..
 │
 ├── README.md
 └── requirements.txt
