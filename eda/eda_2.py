@@ -102,18 +102,16 @@ import matplotlib.pyplot as plt
 
 # HISTOGRAM OF bathroom COLUMN BELOW
 
-print(df["bathroom"].value_counts())
+# print(df["bathroom"].value_counts())
 
-plt.figure(figsize=(7,5))
+# plt.figure(figsize=(7,5))
+# df["bathroom"].value_counts().sort_index().plot(
+#     kind="bar",
+#     edgecolor="black"
+# )
+# plt.title("Distribution of Bathrooms")
+# plt.xlabel("Number of Bathrooms")
+# plt.ylabel("Number of Properties")
+# plt.grid(axis="y", linestyle="--", alpha=0.5)
 
-df["bathroom"].value_counts().sort_index().plot(
-    kind="bar",
-    edgecolor="black"
-)
-
-plt.title("Distribution of Bathrooms")
-plt.xlabel("Number of Bathrooms")
-plt.ylabel("Number of Properties")
-plt.grid(axis="y", linestyle="--", alpha=0.5)
-
-plt.show()
+# plt.show()
