@@ -43,4 +43,6 @@ sale_keywords = "sale|sell|ready to move|cr|crore|lakh"
 df = df[~df["title"].str.contains(sale_keywords, case=False, na=False)]
 df = df[df["price"] < 100000]   # Remove prices >= ₹1 lakh
 
-print(df)
+# print(df)
+
+df.to_csv('data/sas_cleaned_data.csv',  index=False)

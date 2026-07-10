@@ -1,8 +1,9 @@
-# Bivariate Analysis(relationship between two columns).
+# ========================================================================================================================================
 import pandas as pd
 import matplotlib.pyplot as plt
+# ========================================================================================================================================
 
-df = pd.read_csv('data/sas_combine.csv')
+df = pd.read_csv('./data/sas_cleaned_data.csv')
 
 df.rename(columns={
     "_2Ks63":"price",
