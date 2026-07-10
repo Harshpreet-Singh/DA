@@ -74,22 +74,53 @@ The project explores insights such as:
 ## Project Structure
 
 ```text
-OLX-Rental-Property-Analysis/
-│
+DA/
+│   
+├── data_cleaning.py
+├── insights.md
+├── readme.md
+├── read_csv.py
+├── read_csv_url.py
+├── requirements.txt
+│   
+│   
 ├── data/
-│   ├── mohali.csv
-│   ├── kharar.csv
-│   └── sas_nagar.csv
-│
-├──  data_cleaning.py
-├──  read_csv_url.py  (how to load csv from url)
-├──  read_csv.py
+│       kharar_combine.csv
+│       mohali_combine.csv
+│       sas_cleaned_data.csv
+│       sas_combine.csv
+│ 
+│ 
 ├── eda/
 │   ├── eda_1.py
 │   ├── eda_2.py
+│   ├── eda_3.py
+│   ├── eda_4.py
+│   ├── eda_4_heatmap.py
+│   └── eda_4_heatmap_seaborn.png
 │
-├── README.md
-└── requirements.txt
+│
+└── imgs/
+    ├── Bivariate_Analysis/
+    │   ├── eda_3_bhk_vs_price.png
+    │   ├── eda_3_location_vs_count.png
+    │   ├── eda_3_price_vs_area.png
+    │   └── eda_3_top_10_location_vs_avg_rent.png
+    │       
+    │       
+    ├── Multivariate_Analysis/
+    │   ├── eda_4_heatmap_Correlation_Matrix.png
+    │   ├── eda_4_heatmap_Price_vs_BHK_vs_Location(seaborn).png
+    │   ├── eda_4_heatmap_Price_vs_BHK_vs_Location.png
+    │   └── eda_4_Price_vs_BHK_vs_Location.png
+    │       
+    │       
+    └── Univariate_Analysis/
+        ├── eda_2_bathroom_bar_graph.png
+        ├── eda_2_bhk_bar_graph.png
+        ├── eda_2_price_box-plot.png
+        └── eda_2_price_histogram.png
+            
 ```
 
 ---
