@@ -66,6 +66,8 @@ The project explores insights such as:
 * Most common BHK configuration
 * Average rent by location
 * Relationship between area and rent
+* Relationship between area and bhk etc
+* Relationship between 3 Things BHK, Location, Price
 * Bathroom distribution
 * Property listing trends
 
