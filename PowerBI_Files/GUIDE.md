@@ -30,3 +30,31 @@ Isme sirf check karte hain:
     -- Ye tab kaam aata hai jab multiple tables hoti hain.
 Abhi hamare paas sirf 1 table hai.
 Isliye isko abhi ignore kar sakte hain.
+
+
+---------------------------------------------------------
+
+
+# What is Power Query?
+"in short data cleaning krna in PowerBI"
+CSV
+   │
+   ▼
+Power Query
+   │
+   ▼
+Power BI
+
+Power Query can:
+
+*   Rename columns
+*   Remove duplicates
+*   Change data types
+*   Split columns
+*   Filter rows
+*   Merge datasets
+
+We have already done all of this in Pandas.
+
+So why does Power Query exist?
+Because many analysts receive raw Excel or CSV files directly and clean them inside Power BI instead of Python.
