@@ -26,6 +26,18 @@ The project contains separate datasets for:
 * SAS Nagar
 
 Each dataset follows the same cleaning and preprocessing pipeline.
+---
+## What is completed here
+
+✔ Data Collection (Web Scraping)
+✔ Data Cleaning
+✔ Feature Engineering
+✔ Exploratory Data Analysis
+✔ Correlation Analysis
+✔ Multivariate Analysis
+✔ Insights
+✔ Organized Project Structure
+✔ Clean Dataset Export
 
 ---
 
