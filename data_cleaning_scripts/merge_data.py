@@ -48,9 +48,11 @@ print("\nSummary Statistics")
 print("-" * 40)
 print(merged_df.describe())
 
+
 # -----------------------------
 # Save merged dataset
 # -----------------------------
+
 merged_df.to_csv(
     "./data/punjab_rental_dataset.csv",
     index=False
