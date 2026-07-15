@@ -15,3 +15,12 @@
 ### 4. Market Oddities
 * **Sector 79 Premium Spike:** While 1 BHKs are cheap, Sector 79 Mohali’s 4 BHKs command a massive premium averaging ₹60,000.
 * **Data Anomalies:** Khanpur (Kharar) shows an unrealistically low ₹8,000 average for 4 BHKs, indicating a data entry error or a highly specific outlier.
+
+
+## Dashboard KPIs
+
+- Total Listings
+- Average Rent
+- Average Area
+- Most Common BHK
+
