@@ -17,7 +17,7 @@
 * **Data Anomalies:** Khanpur (Kharar) shows an unrealistically low ₹8,000 average for 4 BHKs, indicating a data entry error or a highly specific outlier.
 
 
-## Dashboard KPIs
+## Dashboard & KPIs
 
 - Total Listings
 - Average Rent
